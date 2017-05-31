@@ -1,1 +1,19 @@
-/* You can add global styles to this file, and also import other style files */
+.sidebarxd{
+    position: fixed;
+    background: #2a3f54;
+    color: #ffffff;
+    height: 100%;
+    z-index: 1000;
+    padding: 0px;
+    margin:0px;
+}
+
+.jumbotron{
+    border-radius: 0px !important;
+    background: #7085a0;
+    color: #ffffff;
+}
+
+.navbar{
+    background: #ededed;
+}
