@@ -1,0 +1,46 @@
+<h1 class="text-center text-info">
+  {{title}}
+</h1>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-12 well well-sm">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                          <h3 class="text-center text-primary">Ingrese datos:</h3>
+
+        <!-- Formulario de ingreso de datos -->
+        <label>Nombre: </label>
+        <br>
+        <input type="text" pInputText [(ngModel)]="nombre" />
+        <hr>
+        <label>Apellido Paterno: </label>
+        <br>
+        <input type="text" pInputText [(ngModel)]="apellidoPaterno" />
+        <hr>
+        <label>Apellido Materno: </label>
+        <br>
+        <input type="text" pInputText [(ngModel)]="apellidoMaterno" />
+        <hr>
+        <label>Sueldo: </label>
+        <br>
+        <input type="text" pInputText [(ngModel)]="sueldo" />
+        <hr>
+        <label>Puesto: </label>
+        <br>
+        <input type="text" pInputText [(ngModel)]="puesto" />
+        <hr>
+        <button pButton type="button" (click)="sendRequest()" label="Enviar datos"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+</div>
+
+<!--<a href="#" class="btn btn-primary">Listar Usuario</a>
+<a href="#" class="btn btn-success">Success</a>
+<a href="#" class="btn btn-info">Info</a>
+<a href="#" class="btn btn-warning">Warning</a>
+<a href="#" class="btn btn-danger">Danger</a>-->
